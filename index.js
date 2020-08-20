@@ -28,14 +28,13 @@ function viewCart() {
   }
 }
 function total(){
-total() {
-let total = 0;
-for (var i = 0; i < cart.length; i++){
+var total = 0;
+for(var i = 0; i < cart.length; i++){
   total += cart[i].itemPrice;
-  return total
 }
+return total;
 }
-}
+
 function removeFromCart(item) {
   // write your code here
 }
