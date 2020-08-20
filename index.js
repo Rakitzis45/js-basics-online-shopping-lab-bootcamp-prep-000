@@ -14,12 +14,14 @@ function addToCart(item) {
     Math.floor(Math.random()*100)
   }
   var itemName = `${item}`;
-  var newItem = (itemName: `${item}`, itemPrice());
+  var newItem = {
+    itemName: `${item}`,
+    itemPrice: itemPrice()};
   cart.push(newItem);
   return newItem.itemName + "has been added to your cart";
 
 }
-
+s
 function viewCart() {
   // write your code here
 }
