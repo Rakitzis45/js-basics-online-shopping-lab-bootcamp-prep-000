@@ -42,7 +42,7 @@ if (item === cart[i].itemName)
    return cart
  }
  if(item != item[i].itemName){
-   return "That item is not your cart."
+   return "That item is not in your cart."
  }
 }
 
