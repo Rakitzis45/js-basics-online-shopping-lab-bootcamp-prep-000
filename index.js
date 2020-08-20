@@ -24,7 +24,7 @@ function viewCart() {
     for(var i = 0; i < cart.length - 1; i++) {
       cartDescription = cartDescription + `${cart[i].itemName} at $${cart[i].itemPrice}, `
     }
-    return myString + `and ${cart[cart.length - 1].itemName} at $${cart[cart.length - 1].itemPrice}.`
+    return cartDescription + `and ${cart[cart.length - 1].itemName} at $${cart[cart.length - 1].itemPrice}.`
   }
 }
 function total() {
