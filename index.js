@@ -17,7 +17,11 @@ console.log(itemPrice)
 }
 
 function viewCart() {
-  // write your code here
+  if (cart === 0){
+    return "Your shopping cart is empty."
+  } else {
+
+  }
 }
 
 function total() {
