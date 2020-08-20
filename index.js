@@ -20,7 +20,7 @@ function addToCart(item) {
   };
   cart.push(newItem);
   return newItem.itemName + "has been added to your cart";
-
+console.log(itemPrice())
 }
 s
 function viewCart() {
