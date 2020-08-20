@@ -10,8 +10,8 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  let item = (name, itemPrice);
-  cart.push[item, ...cart];
+  let item = [name, itemPrice];
+  cart = [item, ...cart];
   return cart;
 }
 
