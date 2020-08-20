@@ -38,7 +38,7 @@ return total;
 function removeFromCart(item) {
  for (var i = 0; i < cart.length; i++){
 if (item === cart[i].itemName){
-   cart.splice(cart[i], 1);
+   cart.splice(i, 1);
    return cart
  }
  }
