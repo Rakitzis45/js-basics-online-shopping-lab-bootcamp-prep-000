@@ -27,11 +27,13 @@ function viewCart() {
     return cartDescription + `and ${cart[cart.length - 1].itemName} at $${cart[cart.length - 1].itemPrice}.`
   }
 }
-function total() {
+function total(){
+total() {
 let total = 0;
 for (var i = 0; i < cart.length; i++){
   total += cart[i].itemPrice;
   return total
+}
 }
 }
 function removeFromCart(item) {
