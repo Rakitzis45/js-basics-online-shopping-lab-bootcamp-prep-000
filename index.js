@@ -26,6 +26,7 @@ function viewCart() {
     }
     return myString + `and ${cart[cart.length - 1].itemName} at $${cart[cart.length - 1].itemPrice}.`
   }
+}
 function total() {
   // write your code here
 }
