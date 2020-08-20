@@ -41,6 +41,9 @@ if (item === cart[i].itemName)
    cart.splice(cart[i], 1);
    return cart
  }
+ if(item != item[i].itemName){
+   return "That item is not your cart."
+ }
 }
 
 function placeOrder(cardNumber) {
