@@ -48,5 +48,7 @@ if (item === cart[i].itemName){
 }
 
 function placeOrder(cardNumber) {
-  // write your code here
+  if (cardNumber === 0){
+    return "Sorry, we dont't have a credit card on file for you."
+  }
 }
