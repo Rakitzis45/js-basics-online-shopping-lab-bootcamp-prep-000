@@ -32,7 +32,7 @@ var total = 0;
 for (var i = 0; i < cart.length; i++){
   return total
 }
-
+}
 function removeFromCart(item) {
   // write your code here
 }
